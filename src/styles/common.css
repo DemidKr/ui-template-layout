@@ -1,7 +1,8 @@
 :root {
     --textColor: #0B132A;
     --greyText: #4F5665;
-    --red: #F53838
+    --red: #F53838;
+    --white: #fff;
 }
 
 body {

@@ -1,0 +1,42 @@
+.plan__container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 210px 175px 0 175px;
+}
+
+.plan__text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan__title {
+    width: 383px;
+    color: var(--textColor);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 142.857% */
+    margin-bottom: 20px;
+}
+
+.plan__desc {
+    width: 555px;
+    color: var(--greyText);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin-bottom: 60px;
+}
+
+.plan__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+

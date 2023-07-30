@@ -14,7 +14,7 @@ const Info = () => {
                     <img src={user} alt="user"/>
                     <div className="info__text">
                         <div>90+</div>
-                        <div><span>Users</span></div>
+                        <span>Users</span>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="3" height="129" viewBox="0 0 3 129" fill="none">

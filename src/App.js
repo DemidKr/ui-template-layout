@@ -5,6 +5,8 @@ import Info from "./components/Info/Info";
 import Features from "./components/Features/Features";
 import Plan from "./components/Plan/Plan";
 import Map from "./components/Map/Map";
+import Sponsored from "./components/Sponsored/Sponsored";
+import Reviews from "./components/Reviews/Reviews";
 
 const App = () => {
     return (
@@ -15,6 +17,8 @@ const App = () => {
             <Features/>
             <Plan/>
             <Map/>
+            <Sponsored/>
+            <Reviews/>
         </div>
     );
 };

@@ -1,0 +1,9 @@
+.sponsored__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1720px;
+    height: 210px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 35px 150px 0 150px;
+}

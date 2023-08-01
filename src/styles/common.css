@@ -9,6 +9,10 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
     max-width: 1720px;
     margin: 0 auto;

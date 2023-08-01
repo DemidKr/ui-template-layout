@@ -1,4 +1,4 @@
-.card__container {
+.plan-card__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -12,18 +12,18 @@
     background: var(--white);
 }
 
-.card__container:hover {
+.plan-card__container:hover {
     border: 2px solid #F53838;
 }
 
-.card__img {
+.plan-card__img {
     width: 144px;
     height: 165px;
     flex-shrink: 0;
     margin: 80px 0 60px 0;
 }
 
-.card__title {
+.plan-card__title {
     color: var(--textColor);
     text-align: center;
     font-size: 18px;
@@ -33,13 +33,13 @@
     margin-bottom: 30px;
 }
 
-.card__features li{
+.plan-card__features li{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.card__features span {
+.plan-card__features span {
     color: var(--greyText);
     font-size: 14px;
     font-style: normal;
@@ -47,7 +47,7 @@
     line-height: 30px; /* 214.286% */
     margin-left: 20px;
 }
-.card__container button {
+.plan-card__container button {
     position: absolute;
     bottom: 50px;
 
@@ -64,12 +64,12 @@
     line-height: normal;
 }
 
-.card__container button:hover {
+.plan-card__container button:hover {
     background: var(--red);
     color: var(--white)
 }
 
-.card__price {
+.plan-card__price {
     position: absolute;
     bottom: 115px;
 
@@ -81,7 +81,7 @@
     line-height: 30px; /* 120% */
 }
 
-.card__price span {
+.plan-card__price span {
     color: var(--greyText);
     font-weight: 400;
 }

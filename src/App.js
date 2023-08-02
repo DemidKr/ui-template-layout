@@ -7,6 +7,7 @@ import Plan from "./components/Plan/Plan";
 import Map from "./components/Map/Map";
 import Sponsored from "./components/Sponsored/Sponsored";
 import Reviews from "./components/Reviews/Reviews";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
             <Map/>
             <Sponsored/>
             <Reviews/>
+            <Footer/>
         </div>
     );
 };
